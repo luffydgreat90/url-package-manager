@@ -19,6 +19,6 @@ let package = Package(
             name: "APIPackage"),
         .testTarget(
             name: "APIPackageTests",
-            dependencies: ["APIPackageTests"]),
+            dependencies: ["APIPackage"]),
     ]
 )
